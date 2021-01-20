@@ -5,6 +5,6 @@ services:
   backend:
     build:
       context: ./drf
-    command: gunicorn blog_backend.wsgi --bind 0.0.0.0:8000
+    command: gunicorn drf.wsgi --bind 0.0.0.0:8000
     ports:
       - "8000:8000"

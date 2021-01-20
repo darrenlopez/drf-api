@@ -24,6 +24,8 @@ SECRET_KEY = '%yp0$m83e$o9ptco%icsh&fs&e-ao2jxn)m#jx+kdx#i8ap9y_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+DJANGO_ALLOWED_HOSTS = ['*']
+
 CORS_ORIGIN_ALLOW_ALL = True
 
 # Application definition
