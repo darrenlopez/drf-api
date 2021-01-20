@@ -22,12 +22,11 @@ To Build this project, the machine must have Docker installed. To build, change 
 docker-compose up --build
 ```
 
-This command will build the containers, and once loaded, simply going to http://127.0.0.1:8000/, and will display a simple "Hello World", this route can be easily removed and this project can have the celery worker simply make requests and pull data into a DB or routes can be added to make this a proper API.
+This command will build the containers, and once loaded, simply going to http://127.0.0.1:8000/, and seeing the API Options. 
 
 ## Built With
 
-* [Flask](http://flask.pocoo.org/) - The web framework used
-* [Celery](http://www.celeryproject.org/) - Asynchronous task queue
+* [Django Rest Framework](https://docs.djangoproject.com/en/3.1/) - The web framework used
 * [Docker](https://www.docker.com/) - Development and delivery of software inside standardized containers.
 
 ## Authors
